@@ -1,4 +1,4 @@
-## Quang Nguyen qdn8mj Edward Radion er2cg; FINAL SUBMISSION
+## Quang Nguyen
 # game description:
 # goal is to survive as long as possible against the numerous impediments to Trump's Mission while making big bucks
 # Mission Trump has: user input, graphics, start screen, animation, enemies, collectables, scrolling level, timer, health meter, music/sounds
@@ -85,7 +85,7 @@ def splash(keys):
     camera.draw(gamebox.from_text(240, 210, "Right and Left Arrows - Move", 'sys', 30, 'white'))
     camera.draw(gamebox.from_text(855, 90, "- Avoid FAKE NEWS", 'sys', 30, 'red'))
     camera.draw(gamebox.from_text(820, 115, "- Collect $$$", 'sys', 30, 'red'))
-    camera.draw(gamebox.from_text(camera.left + 170, camera.bottom - 20, "Quang Nguyen (qdn8mj), Edward Radion (er2cg)", 'sys', 20, 'white'))
+    camera.draw(gamebox.from_text(camera.left + 170, camera.bottom - 20, "Quang Nguyen", 'sys', 20, 'white'))
     menu_music.play(loops=-1)
 
     if pygame.K_SPACE in keys:
